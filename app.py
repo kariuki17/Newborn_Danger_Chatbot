@@ -18,7 +18,9 @@ import osmnx as ox
 import folium
 from streamlit_folium import st_folium
 from rapidfuzz import process, fuzz
-from shapely.geometry import Point, BaseGeometry
+# Shapely 2.x import fix
+from shapely.geometry import Point
+from shapely.base import BaseGeometry
 
 # ------------------------------
 # 1) Domain data
