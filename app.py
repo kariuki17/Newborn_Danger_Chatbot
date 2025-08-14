@@ -20,7 +20,8 @@ from streamlit_folium import st_folium
 from rapidfuzz import process, fuzz
 # Shapely 2.x import fix
 from shapely.geometry import Point
-from shapely.base import BaseGeometry
+from shapely.geometry.base import BaseGeometry
+
 
 # ------------------------------
 # 1) Domain data
