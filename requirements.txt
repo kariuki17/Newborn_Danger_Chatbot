@@ -1,0 +1,9 @@
+streamlit
+geopy
+osmnx
+folium
+streamlit-folium
+rapidfuzz
+shapely
+pyproj
+requests
